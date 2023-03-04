@@ -38,7 +38,7 @@ run ```go run cmd/main.go```
 - ADDRESS - the address of the user's account to which the information belongs.
 - DATA - information that needs to be encrypted and saved.
 
-Response - TX hash.
+_Response - TX hash._
 
 **Get information:**
 
@@ -47,4 +47,4 @@ Response - TX hash.
 - PASSWORD - password to decrypt information.
 - ADDRESS - the address of the user whose information you want to receive.
 
-Response - decrypted data.
+_Response - decrypted data._
