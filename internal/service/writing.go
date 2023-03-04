@@ -18,7 +18,6 @@ func NewWriteService(repo *repository.Repository) *WriteService {
 func prepareUserInfo(info string, password string) []byte {
 	data := encrypt(convertToBytes(info), convertToBytes(password))
 	return data
-
 }
 
 func (w *WriteService) FillUserInfo(info string, password string, _userAddress string) (*types.Transaction, error) {

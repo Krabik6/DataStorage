@@ -27,3 +27,24 @@ Create .env file and fill it using example from .envExample to configure app
 ### Running app
 
 run ```go run cmd/main.go```
+
+### Endpoints
+
+**Save information:**
+
+`/api/fillUserInfo?password=<PASSWORD>&address=<ADDRESS>&data=<DATA>`
+
+- PASSWORD - password to encrypt information, do not lose it.
+- ADDRESS - the address of the user's account to which the information belongs.
+- DATA - information that needs to be encrypted and saved.
+
+Response - TX hash.
+
+**Get information:**
+
+`/api/getUserInfo?password=<PASSWORD>&address=<ADDRESS>`
+
+- PASSWORD - password to decrypt information.
+- ADDRESS - the address of the user whose information you want to receive.
+
+Response - decrypted data.

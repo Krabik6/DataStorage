@@ -51,5 +51,4 @@ func (h *Handler) FillUserInfo(ctx *gin.Context) {
 		return
 	}
 	ctx.JSON(http.StatusOK, gin.H{"tx": tx.Hash().Hex()})
-	//сегодня день наобарот ты красишь свои алые губы и выбрав плаьте по ярче ты выйдешь вечером в мир наобарот идешь туда где музыка клубы
 }
