@@ -2,7 +2,7 @@
 
 This is a backend application created for the secure storage of private data in the Blockchain. This application can be used to store medical information about a person, documents and other personal data.
 
-**The key features of Gin are:**
+**The key features of app are:**
 * Free to read data
 * Security
 * The possibility of obtaining information to authorized persons (e.g doctors)
